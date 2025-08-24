@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Lato", sans-serif;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a,
+a:hover{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+/* HEADER PART START  */
+.navbar {
+  background: #1e1e1e;
+}
+.nav-link {
+  color: #959595;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 15px !important;
+}
+.nav-link:hover {
+  color: #fd6f00;
+}
+.Menubtn {
+  background: #fd6f00;
+  border-radius: 5px;
+  padding: 12px 30px;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.Menubtn:hover{
+  background: #3d1c02;
+
+}
+
+/* Header Part END  */
+/* Banner Part start  */
+#BannerPart{
+  padding-top: 170px;
+  padding-bottom: 100px;
+  background: #1e1e1e;
+}
+.bannertext h4{
+  color: #707070;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.bannertext h3{
+  color:#959595 ;
+font-size:  28px; ;
+font-weight: 700;
+padding-bottom: 30px;
+}
+.bannertext h1{
+  font-size: 70px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+.gradient-text {
+  background: linear-gradient(90deg, #984300 0%, #FD6F00 46%, #CA5900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.icons a i{
+color: #BABABA;
+font-size: 24px;
+
+margin-right: 10px;
+}
+.CounterItems{
+  color: #fff;
+}
+.button a {
+  
+  background: #fd6f00;
+  border-radius: 5px;
+  padding: 12px 30px;
+  color: white;
+  outline: none;
+  border: 2px solid #fd6f00;
+  font-size: 20px;
+  transition: 0.4s;
+  margin-right: 5px;
+}
+.button a:hover{
+   background: transparent;
+   border: 2px solid #959595;
+}
+.icons a i{
+  padding: 30px;
+}
+.row{
+  display: flex;
+
+}
+.bannercounter{
+  padding-top: 40px;
+}
+.CounterItems h2{
+  color: #FD6F00;
+  font-size: 24px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+.CounterItems h3{
+  color: #dfdfdf;
+}
